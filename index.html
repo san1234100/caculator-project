@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>git 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+      <div class="container">
+       <div class="row">
+        <h1 class="text-center text-success">Calculator</h1>
+        <div class="col-sm-12 col-md-6 col-lg-4 ms-auto me-auto mt-5">
+            <div class="card bg-primary">
+                <!-- calculator input -->
+                <div class="card-header p-4">
+                    <div class="d-grid gap-2 input-size">
+                       <p class="input-size" id="input_result"></p>
+                    </div>
+                </div>
+                <!-- buttons -->
+                <div class="card-body">
+                      <!-- content -->
+                       <!-- row1 buttons -->
+                        <div class="row">
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="one">1</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="two">2</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="three">3</button>
+                            </div>
+                            <div class="col-3">
+                                <button type="reset"  class="btn btn-size bg-success" id="ac">AC</button>
+                            </div>
+                        </div>
+                          <!-- row2 buttons -->
+                          <div class="row mt-2">
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="four">4</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="five">5</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="six">6</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="mod">%</button>
+                            </div>
+                        </div>
+                         <!-- row3 buttons -->
+                         <div class="row mt-2">
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="seven">7</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="eight">8</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="nine">9</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-size bg-success" id="plus">+</button>
+                            </div>
+                        </div>
+                             <!-- row4 buttons -->
+                             <div class="row mt-2">
+                                <div class="col-3">
+                                    <button class="btn btn-size bg-success" id="zero">0</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-size bg-success" id="delete"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-size bg-success" id="square">**</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-size bg-success" id="mul">*</button>
+                                </div>
+                            </div>
+                             <!-- row5 buttons -->
+                             <div class="row mt-2">
+                                <div class="col-3">
+                                    <button class="btn btn-size bg-success" id="div">/</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-size bg-success" id="sub">-</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn bg-success btn-size" id="dot">.</button>
+                                </div>
+                                <div class="col-3">
+                                    <button type="submit" class="btn btn-size bg-success" id="equalto">=</button>
+                                </div>
+                            </div>
+                      <!-- content end -->
+                </div>
+            </div>
+        </div>
+       </div>
+        
+      </div>
+ 
+    <!-- js -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

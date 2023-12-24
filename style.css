@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-size{
+    height: 40px;
+    width: 50px;
+}
+.input-size{
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
