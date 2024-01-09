@@ -13,3 +13,6 @@
     color: black;
     font-size: 40px;
 }
+.bg-hero{
+    background: linear-gradient(90deg, rgba(9,98,121,1) 10%, rgba(0,212,255,1) 100%);
+}
